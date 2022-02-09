@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Computers
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="Orders.xsd">
+    
+    <Computer id="B8985">
+        <Name>Lap top DELL Vostro</Name>
+        <Producer>TRUBG QUOC</Producer>
+        <date>2002-12-12</date>
+        <Price unit="VND">124</Price>
+    </Computer>
+    <Computer id="B8986">
+        <Name>Lap top DELL Vostro</Name>
+        <Producer>VIET NAM</Producer>
+        <date>2002-12-12</date>
+        <Price unit="VND">124</Price>
+    </Computer>
+</Computers>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<b:Books xmlns:b="http://www.backhoa-aptech.edu.vn"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+    http://www.backhoa-aptech.edu.vn demo.xsd">
+    
+    <b:Book id="B8985">
+        <b:BookName>tay du ki</b:BookName>
+        <b:Auth>le bao tu</b:Auth>
+        <b:NXB>NXB VN</b:NXB>
+        <b:Price unit="VND">10000</b:Price>
+    </b:Book>
+    <b:Book id="B8986">
+        <b:BookName>tay du ki</b:BookName>
+        <b:Auth>le bao tu</b:Auth>
+        <b:NXB>NXB VN</b:NXB>
+        <b:Price unit="VND">10000</b:Price>
+    </b:Book>
+</b:Books>

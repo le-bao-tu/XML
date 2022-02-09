@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Preson xmlns:ap ="http://www.w3.org/2001/XMLSchema" xmlns:bk="http://www.w3.org/2001" xmlns:c="http://www.w3.org">
+    <player id="B8985">
+        <ap:name>QUANG HAI</ap:name>
+        <club>HA NOI</club>
+        <location>TRUNG VE</location>
+        <transfer>1$</transfer>
+    </player>
+    <player id="B8986">
+        <ap:name>TIEN LINH</ap:name>
+        <club>HA NOI</club>
+        <location>TIEN DAO CAM</location>
+        <transfer>2$</transfer>
+    </player>
+    <player id="B8987">
+        <ap:name>BUI TIEN DUNG</ap:name>
+        <club>HA NOI</club>
+        <location>HAU VE CANH</location>
+        <transfer>3$</transfer>
+    </player>
+
+    <book id="B8988">
+        <bk:name>SACH KHTN</bk:name>
+        <auth>LE BAO TU</auth>
+        <publishingcompany>KIM DONG</publishingcompany>
+        <Publishingyear>2021</Publishingyear>
+        <pages>1000</pages>
+        <price>50.000 VND</price>
+    </book>
+    <book id="B8989">
+        <bk:name>SACH GDCD</bk:name>
+        <auth>LE BAO TU</auth>
+        <publishingcompany>KIM DONG</publishingcompany>
+        <Publishingyear>2020</Publishingyear>
+        <pages>200</pages>
+        <price>20.000 VND</price>
+    </book>
+    <book id="B8990">
+        <bk:name>SACH DAC NHAN TAM</bk:name>
+        <auth>LE BAO TU</auth>
+        <publishingcompany>CHIU</publishingcompany>
+        <Publishingyear>2019</Publishingyear>
+        <pages>1500</pages>
+        <price>100.000 VND</price>
+    </book>
+
+    <company id="B8991">
+        <companyname>CONG TY TECHNOLOGY</companyname>
+        <address>238 hoang quoc viêt</address>
+        <language>Elglish</language>
+        <employer>1000</employer>
+    </company>
+    <company id="B8992">
+        <companyname>CONG TY CO PHAN VIEN THONG CONG NGHE VIETEL</companyname>
+        <address>19 CAU GIAY</address>
+        <language>TVIETNAMESE</language>
+        <employer>500</employer>
+    </company>
+    <company id="B8993">
+        <companyname>CONG TY SOTA-TECH</companyname>
+        <address>19 LANG HA CAU GIAY</address>
+        <language>Elglish</language>
+        <employer>2000</employer>
+    </company>
+</Preson>

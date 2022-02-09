@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Products.css" type="text/css"?>
+<!-- <?xml-stylesheet href="Products.xsl" type="text/xsl"?> -->
+<!-- <?xml-stylesheet href="Products_sort.xsl" type="text/xsl"?> -->
+<?xml-stylesheet href="Price_Size.xsl" type="text/xsl"?>
+<!-- <?xml-stylesheet href="Show_shirt.xsl" type="text/xsl"?> -->
+<!-- <?xml-stylesheet href="Background.xsl" type="text/xsl"?>  -->
+
+
+<DSSanpham xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Products.xsd">
+    <Sanpham>
+        <id>B8985</id>
+        <Name>AO SO MI</Name>
+        <Category_id>1</Category_id>
+        <Description>san pham chat luong</Description>
+        <Amount>9999</Amount>
+        <date>2002-05-30T09:00:00</date>
+        <Price unit="VND">100000</Price>
+        <Size>L</Size>
+        <Image image_format=".JPG">1</Image>
+    </Sanpham>
+    <Sanpham>
+        <id>B8986</id>
+        <Name>AO DA CA SAU</Name>
+        <Category_id>2</Category_id>
+        <Description>san pham chat luong</Description>
+        <Amount>5000</Amount>
+        <date>2002-05-30T09:30:00</date>
+        <Price unit="VND">400000</Price>
+        <Size>XXL</Size>
+        <Image image_format=".PNG">2</Image>
+    </Sanpham>
+    <Sanpham>
+        <id>B8987</id>
+        <Name>QUAN BO GUCCI</Name>
+        <Category_id>3</Category_id>
+        <Description>san pham chat luong</Description>
+        <Amount>9999</Amount>
+        <date>2002-05-30T09:00:00</date>
+        <Price unit="VND">3000</Price>
+        <Size>XL</Size>
+        <Image image_format=".JPG">3</Image>
+    </Sanpham>
+
+    <Sanpham>
+        <id>B8988</id>
+        <Name>QUAN BO LV</Name>
+        <Category_id>4</Category_id>
+        <Description>san pham chat luong</Description>
+        <Amount>0</Amount>
+        <date>2002-05-30T09:00:00</date>
+        <Price unit="VND">7000</Price>
+        <Size>M</Size>
+        <Image image_format=".PNG">4</Image>
+    </Sanpham>
+
+</DSSanpham>

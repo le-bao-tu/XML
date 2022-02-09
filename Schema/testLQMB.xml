@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tuongs
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="LQMB.xsd">
+    
+    <Tuong id="B8985">
+        <Ten>elsu</Ten>
+        <Sex>Nam</Sex>
+        <location>ad</location>
+        <Price unit="USD">2</Price>
+    </Tuong>
+    <Tuong id="B8986">
+        <Ten>elsu</Ten>
+        <Sex>Nam</Sex>
+        <location>ad</location>
+        <Price unit="USD">2</Price>
+    </Tuong>
+    
+</Tuongs>

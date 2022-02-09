@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.backhoa-aptech.edu.vn" targetNamespace="http://www.backhoa-aptech.edu.vn">
+    
+        <xs:element name="BookName" type="xs:string"></xs:element>
+        <xs:element name="Auth" type="xs:string"></xs:element>
+
+        <xs:element name="NXB" >
+           <xs:simpleType>
+            <!-- restriction để cho chọn -->
+               <xs:restriction base="xs:string">
+                    <xs:enumeration value="NXB VN"></xs:enumeration>
+                    <xs:enumeration value="NXB KIM DONG"></xs:enumeration>
+                    <xs:enumeration value="NXB LE BAO TU"></xs:enumeration>
+               </xs:restriction>
+           </xs:simpleType>
+        </xs:element>
+
+        <xs:element name="Price">
+            <!-- complexType dùng để khai báo thuộc tính  -->
+            <xs:complexType>
+                <xs:simpleContent>
+                    <xs:extension base="xs:positiveInteger" >
+                        <xs:attribute name="unit" fixed="VND" use="required"></xs:attribute>
+                    </xs:extension>
+                </xs:simpleContent>
+            </xs:complexType>
+        </xs:element>
+
+        <xs:element name="Book">
+            <xs:complexType>
+                <!-- sequence dùng để khai khia báo theo tuần tự -->
+                <xs:sequence>
+                    <xs:element ref="BookName"></xs:element>
+                    <xs:element ref="Auth"></xs:element>
+                    <xs:element ref="NXB"></xs:element>
+                    <xs:element ref="Price"></xs:element>
+                </xs:sequence>
+                <!-- khai báo thuộc tính -->
+                <xs:attribute name="id" type="xs:ID" use="required"></xs:attribute>
+            </xs:complexType>
+        </xs:element>
+
+        <xs:element name="Books">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element ref="Book" minOccurs="1" maxOccurs="unbounded"></xs:element>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+</xs:schema>

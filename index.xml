@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <Person xmlns:ap="http:backkhoa-atech.edu.vn" xmlns:app="http:atech.edu.vn">
+    <football id = "B8985">
+        <FullName   >LE BAO TU </FullName>
+        <Birthday> 05 - 12 - 2002</Birthday>
+        <Addresses>THANH PHO HA NOI</Addresses>
+    </football>
+    <football id = "B8986">
+        <FullName>NGUYEN QUANG HAI </FullName>
+        <Birthday> 06 - 07 - 1995</Birthday>
+        <Addresses>THANH PHO HA NOI</Addresses> 
+    </football>
+    <football id = "B8987">
+        <FullName>TIEN LINH </FullName>
+        <Birthday> 02 - 03 - 1997</Birthday>
+        <Addresses>THANH PHO HA NOI</Addresses>
+    </football>
+</Person>

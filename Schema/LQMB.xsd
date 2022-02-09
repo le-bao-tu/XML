@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="unqualified">
+    
+    <xs:element name="Ten">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <!-- tối thiểu kí tự là 4 -->
+                <xs:minLength value="4"></xs:minLength>
+            
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="Sex">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Nam"></xs:enumeration>
+                <xs:enumeration value="Nu"></xs:enumeration>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="location" type="xs:string"></xs:element>
+
+
+
+     <!-- Price khai báo bên ngoài xong gọi vào  -->
+     <xs:simpleType name="Value">
+         <xs:restriction base="xs:positiveInteger">
+             <xs:minExclusive value="1"></xs:minExclusive>
+         </xs:restriction>
+     </xs:simpleType>
+
+    <xs:element name="Price">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="Value">
+                    <xs:attribute name="unit" fixed="USD" use="required"></xs:attribute>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Tuong">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Ten"></xs:element>
+                <xs:element ref="Sex"></xs:element>
+                <xs:element ref="location"></xs:element>
+                <xs:element ref="Price"></xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:ID" use="required"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Tuongs">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Tuong" minOccurs="0" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

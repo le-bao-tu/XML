@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Orders [
+    <!ELEMENT Orders (Order*)>
+    <!ELEMENT Order (OrderNo,OrderDate,CustomerName,Detail)>
+    <!ELEMENT OrderNo (#PCDATA)>
+    <!ELEMENT OrderDate (#PCDATA)>
+    <!ELEMENT CustomerName (#PCDATA)>
+    <!ELEMENT Detail (ItemNo,ItemName,Quantity,Price )>
+    <!ELEMENT ItemNo (#PCDATA)>
+    <!ELEMENT ItemName (#PCDATA)>
+    <!ELEMENT Quantity (#PCDATA)>
+    <!ELEMENT Price (#PCDATA)>
+
+    <!-- khai bao thuoc tinh -->
+    <!ATTLIST OrderNo orderNo ID #REQUIRED>
+    <!ATTLIST OrderDate orderDate CDATA #REQUIRED>
+    <!ATTLIST CustomerName customerName CDATA #REQUIRED>
+    <!ATTLIST ItemNo itemNo CDATA #REQUIRED>
+    <!ATTLIST ItemName itemName CDATA #REQUIRED>
+    <!ATTLIST Quantity with CDATA "1">
+    <!ATTLIST Price with CDATA "0">
+
+    <!-- khai báo thực thể  -->
+    <!ENTITY PRICE "VND">
+]>
+<Orders>
+    <Order >
+        <OrderNo orderNo="w"></OrderNo>
+        <OrderDate orderDate="">sdcs</OrderDate>
+        <CustomerName customerName=""></CustomerName>
+        <Detail>
+            <ItemNo itemNo=""></ItemNo>
+            <ItemName itemName =""></ItemName>
+            <Quantity></Quantity>
+            <Price>&PRICE;</Price>
+        </Detail>
+    </Order>
+    <Order >
+        <OrderNo orderNo="a"></OrderNo>
+        <OrderDate orderDate="">sdcs</OrderDate>
+        <CustomerName customerName=""></CustomerName>
+        <Detail>
+            <ItemNo itemNo=""></ItemNo>
+            <ItemName itemName =""></ItemName>
+            <Quantity></Quantity>
+            <Price>&PRICE;</Price>
+        </Detail>
+    </Order>
+    <Order >
+        <OrderNo orderNo="b"></OrderNo>
+        <OrderDate orderDate="">sdcs</OrderDate>
+        <CustomerName customerName=""></CustomerName>
+        <Detail>
+            <ItemNo itemNo=""></ItemNo>
+            <ItemName itemName =""></ItemName>
+            <Quantity></Quantity>
+            <Price>&PRICE;</Price>
+        </Detail>
+    </Order>
+    <Order >
+        <OrderNo orderNo="c"></OrderNo>
+        <OrderDate orderDate="">sdcs</OrderDate>
+        <CustomerName customerName=""></CustomerName>
+        <Detail>
+            <ItemNo itemNo=""></ItemNo>
+            <ItemName itemName =""></ItemName>
+            <Quantity></Quantity>
+            <Price>&PRICE;</Price>
+        </Detail>
+    </Order>
+    <Order >
+        <OrderNo orderNo="d"></OrderNo>
+        <OrderDate orderDate="">sdcs</OrderDate>
+        <CustomerName customerName=""></CustomerName>
+        <Detail>
+            <ItemNo itemNo=""></ItemNo>
+            <ItemName itemName =""></ItemName>
+            <Quantity></Quantity>
+            <Price>&PRICE;</Price>
+        </Detail>
+    </Order>
+</Orders>
